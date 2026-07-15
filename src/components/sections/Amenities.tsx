@@ -48,7 +48,7 @@ export function Amenities() {
           {/* Bento Item 1: Piscina (Large, width 2, height 1) */}
           <motion.div variants={itemVariants} className="md:col-span-2 lg:col-span-2 relative group overflow-hidden radius-mix-1">
             <Image
-              src="/images/salao-de-festasz.jpg"
+              src="/images/piscina-02z.jpg"
               alt="Piscina Frente Mar"
               fill
               sizes="(max-width: 768px) 100vw, (max-width: 1024px) 66vw, 50vw"
@@ -64,7 +64,7 @@ export function Amenities() {
           {/* Bento Item 2: Lazer Integrado (width 1, height 1) */}
           <motion.div variants={itemVariants} className="relative group overflow-hidden rounded-3xl">
             <Image
-              src="/images/piscina-02z.jpg"
+              src="/images/piscina-01z.jpg"
               alt="Área de Lazer"
               fill
               sizes="(max-width: 768px) 100vw, 33vw"
@@ -91,7 +91,7 @@ export function Amenities() {
           {/* Bento Item 4: Academia (width 1, height 1) */}
           <motion.div variants={itemVariants} className="relative group overflow-hidden rounded-3xl">
             <Image
-              src="/images/salao-de-festas-01z.jpg"
+              src="/images/academiaz.jpg"
               alt="Academia Equipada"
               fill
               sizes="(max-width: 768px) 100vw, 33vw"
@@ -118,7 +118,7 @@ export function Amenities() {
           {/* Bento Item 6: Salão de Festas (width md:2, lg:1, height 1) */}
           <motion.div variants={itemVariants} className="md:col-span-2 lg:col-span-1 relative group overflow-hidden rounded-3xl">
             <Image
-              src="/images/salao-de-jogosz.jpg"
+              src="/images/salao-de-festasz.jpg"
               alt="Salão de Festas"
               fill
               sizes="(max-width: 768px) 100vw, 33vw"
