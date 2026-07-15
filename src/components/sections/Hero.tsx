@@ -43,7 +43,7 @@ export function Hero() {
 
           {/* Title */}
           <h1 className="text-4xl md:text-5xl lg:text-[4.5rem] font-bold text-white leading-[1.1] tracking-tight">
-            Viva de frente para o mar, no coração de <span className="text-[#C4A57A]">Balneário Piçarras</span>, com 3 suítes e alto padrão
+            Viva de frente para o mar, no coração de <span className="text-[#C4A57A]">Balneário Piçarras</span>
           </h1>
 
           {/* Subtitle */}
