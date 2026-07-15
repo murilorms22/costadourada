@@ -15,8 +15,8 @@ export function Hero() {
       {/* Full Background Image */}
       <motion.div className="absolute inset-0 z-0 scale-105" style={{ y }}>
         <Image
-          src="/images/imagem-hero2.png"
-          alt="Cipriani Tower Fachada"
+          src="/images/vista-externa.jpg"
+          alt="Costa Dourada Residencial Fachada"
           fill
           quality={100}
           className="object-cover object-[75%_center] md:object-center"
@@ -42,24 +42,29 @@ export function Hero() {
           </span>
 
           {/* Title */}
-          <h1 className="text-4xl md:text-5xl lg:text-[4rem] font-bold text-white leading-[1.1] tracking-tight">
-            Viva a experiência de morar em uma das <span className="text-[#C4A57A]">melhores localizações</span> de Blumenau
+          <h1 className="text-4xl md:text-5xl lg:text-[4.5rem] font-bold text-white leading-[1.1] tracking-tight">
+            Viva de frente para o mar, no coração de <span className="text-[#C4A57A]">Balneário Piçarras</span>, com 3 suítes e alto padrão
           </h1>
 
+          {/* Subtitle */}
+          <p className="text-gray-300 text-sm md:text-base font-sans leading-relaxed max-w-2xl font-medium">
+            Costa Dourada Residencial — apartamentos de 157 a 172 m², 3 suítes, vaga de garagem dupla e hobby box inclusos, a poucos passos da praia central. Unidades exclusivas com terraço e piscina privativa.
+          </p>
+
           {/* Features Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8 w-full">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 w-full">
             {[
-              { text: "1 vaga dupla de garagem + opção de depósito", icon: Car },
-              { text: "Lazer completo: piscina aquecida, cinema e mais", icon: Sparkles },
-              { text: "Localização nobre no bairro Velha, Blumenau/SC", icon: MapPin },
-              { text: "Últimas unidades — direto com a construtora", icon: Key, className: "hidden md:flex" }
+              { text: "3 suítes | de 157 a 172 m²", icon: Key },
+              { text: "Vaga de garagem dupla + hobby box inclusos", icon: Car },
+              { text: "De frente para o mar, na praia central de Piçarras", icon: MapPin },
+              { text: "Lazer completo e comércio no térreo", icon: Sparkles }
             ].map((item, idx) => (
               <motion.div
                 key={idx}
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 + (idx * 0.1) }}
-                className={`flex items-center space-x-4 bg-black/40 backdrop-blur-md p-4 rounded-xl border border-white/10 ${item.className || ""}`}
+                className="flex items-center space-x-4 bg-black/40 backdrop-blur-md p-4 rounded-xl border border-white/10"
               >
                 <div className="flex-shrink-0 text-white">
                   <item.icon className="w-5 h-5 md:w-6 md:h-6" strokeWidth={2} />
@@ -83,7 +88,7 @@ export function Hero() {
               Agendar minha visita
             </Button>
             <p className="text-xs md:text-sm font-bold text-gray-300 tracking-wider uppercase text-center sm:text-left">
-              Atendimento direto<br />com a equipe de vendas
+              Atendimento direto com a equipe de vendas.<br />Entrega prevista para abril/2029.
             </p>
           </motion.div>
 

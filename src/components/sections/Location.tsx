@@ -2,29 +2,29 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { HeartPulse, BookOpen, Coffee, ShoppingBag, MapPin } from "lucide-react";
+import { Waves, Compass, Store, Car, MapPin } from "lucide-react";
 
 export function Location() {
   const points = [
     {
-      icon: <HeartPulse className="w-5 h-5" />,
-      title: "Saúde",
-      desc: "Hospital Unimed e Hospital Santa Isabel"
+      icon: <Waves className="w-5 h-5" />,
+      title: "Praia e mar",
+      desc: "Praia Central (em frente), Calçadão da Praia e o Molhe Joaquim Pires"
     },
     {
-      icon: <BookOpen className="w-5 h-5" />,
-      title: "Educação",
-      desc: "FURB (Universidade Regional de Blumenau) e UFSC (Universidade Federal de Santa Catarina)"
+      icon: <Compass className="w-5 h-5" />,
+      title: "Cultura e lazer",
+      desc: "Igreja Matriz Nossa Senhora da Paz, Centro Cultural Luiz Telles e Museu Oceanográfico Univali"
     },
     {
-      icon: <Coffee className="w-5 h-5" />,
-      title: "Lazer e Cultura",
-      desc: "Parque Vila Germânica (Oktoberfest), Parque Ramiro e Teatro Carlos Gomes"
+      icon: <Store className="w-5 h-5" />,
+      title: "Comércio e serviços",
+      desc: "Comércio, gastronomia e serviços da Avenida Nereu Ramos, no próprio térreo do empreendimento e no entorno"
     },
     {
-      icon: <ShoppingBag className="w-5 h-5" />,
-      title: "Compras e Serviços",
-      desc: "Shopping Neumarkt, Angeloni Supermercado, Sam’s Club e Terminal Proeb (transporte público)"
+      icon: <Car className="w-5 h-5" />,
+      title: "Região",
+      desc: "A poucos minutos de carro de Penha e do Beto Carrero World"
     }
   ];
 
@@ -47,13 +47,13 @@ export function Location() {
               <span>Localização</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-medium text-gray-900 mb-6 leading-tight">
-              No bairro Velha,<br /> perto de tudo o que importa
+              De frente para a praia central, no Centro de Balneário Piçarras
             </h2>
-            <p className="text-gray-500 font-sans text-lg mb-6 max-w-lg">
-              O Cipriani Tower fica na Rua Marechal Deodoro, 527, no bairro Velha — uma das regiões mais valorizadas de Blumenau, com fácil acesso ao centro, comércio, escolas e serviços.
+            <p className="text-gray-500 font-sans text-lg mb-6 max-w-lg font-medium leading-relaxed">
+              O Costa Dourada fica na Av. Nereu Ramos, 468, no Centro de Balneário Piçarras — a principal avenida à beira-mar da cidade, cercada de comércio, gastronomia e serviços, a poucos passos da areia.
             </p>
-            <p className="text-gray-600 font-sans font-medium mb-10 max-w-lg">
-              Estar no bairro Velha significa viver a poucos minutos dos principais pontos de Blumenau:
+            <p className="text-gray-600 font-sans font-semibold mb-10 max-w-lg">
+              Morar no Costa Dourada é viver a poucos passos dos principais pontos de Balneário Piçarras:
             </p>
 
             <div className="space-y-8 relative">
@@ -86,8 +86,8 @@ export function Location() {
           >
             <div className="relative aspect-[4/5] w-full max-w-md mx-auto lg:max-w-none radius-mix-2 overflow-hidden shadow-xl">
               <Image
-                src="/images/vista externa quadra gpt.png"
-                alt="Localização Cipriani Tower"
+                src="/images/vista-externa-diurna.jpg"
+                alt="Localização Costa Dourada"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"

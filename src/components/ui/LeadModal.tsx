@@ -42,7 +42,7 @@ export function LeadModal() {
     setShowOverlay(true);
 
     setTimeout(() => {
-      const mensagem = `Olá! Gostaria de agendar uma visita para o Cipriani Tower. Meu nome é ${formData.nome}.`;
+      const mensagem = `Olá! Gostaria de agendar uma visita para o Costa Dourada. Meu nome é ${formData.nome}.`;
       const whatsappUrl = `https://wa.me/5547996744444?text=${encodeURIComponent(mensagem)}`;
       window.location.href = whatsappUrl;
     }, 2000);

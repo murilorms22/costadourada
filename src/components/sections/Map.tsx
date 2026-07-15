@@ -13,11 +13,11 @@ export function Map() {
             <MapPin className="w-8 h-8" />
           </div>
           <h2 className="text-3xl md:text-4xl font-medium text-gray-900 mb-4">
-            Onde fica o Cipriani Tower
+            Onde fica o Costa Dourada
           </h2>
-          <p className="text-gray-500 font-sans text-lg">
-            Rua Marechal Deodoro, 527<br />
-            Bairro Velha — Blumenau/SC
+          <p className="text-gray-500 font-sans text-lg font-medium">
+            Av. Nereu Ramos, 468<br />
+            Centro — Balneário Piçarras/SC — CEP 88380-000
           </p>
         </div>
 
@@ -25,7 +25,7 @@ export function Map() {
 
       <div className="w-full h-[300px] md:h-[350px] mt-12">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.125139932468!2d-49.0883652!3d-26.9059533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df1f2bf29a65df%3A0xc6ed4f4949f2b84f!2sR.%20Mal.%20Deodoro%2C%20527%20-%20Velha%2C%20Blumenau%20-%20SC%2C%2089036-001!5e0!3m2!1spt-BR!2sbr!4v1716900000000!5m2!1spt-BR!2sbr"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.1859417576666!2d-48.666367799999996!3d-26.770342199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8d30061e83cb9%3A0xf72f3395afe1ee56!2sCosta%20Dourada%20Residence!5e0!3m2!1spt-BR!2sbr!4v1784152020475!5m2!1spt-BR!2sbr"
           width="100%"
           height="100%"
           style={{ border: 0 }}

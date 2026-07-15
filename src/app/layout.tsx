@@ -8,8 +8,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Cipriani Tower | Empreendimento de Luxo no bairro Velha, Blumenau/SC",
-  description: "Cipriani Tower — apartamentos de 84 a 86 m², 2 suítes, vaga dupla de garagem e lazer completo. Últimas unidades, direto com a construtora.",
+  title: "Costa Dourada Residencial | Frente Mar em Balneário Piçarras/SC",
+  description: "Costa Dourada Residencial — apartamentos de 157 a 172 m² com 3 suítes e vaga dupla de garagem no Centro de Balneário Piçarras. Unidades exclusivas com terraço e piscina privativa.",
 };
 
 export default function RootLayout({

@@ -21,28 +21,28 @@ export function FloorPlans() {
 
   const plans = [
     {
-      title: "Planta 4",
-      area: "84,00m²",
-      features: ["1 vaga dupla", "Sacada gourmet", "Opção de depósito"],
-      img: "/images/ap-8400.png"
+      title: "Planta 1 — Finais 1 e 2",
+      area: "157,39m²",
+      features: ["3 suítes", "1 vaga de garagem dupla + hobby box (inclusos)", "Sacada"],
+      img: "/images/informativo.png"
     },
     {
-      title: "Planta 2",
-      area: "86,35m²",
-      features: ["1 vaga dupla", "Sacada gourmet", "Opção de depósito"],
-      img: "/images/ap8635.png"
+      title: "Planta 2 — Finais 3 e 4",
+      area: "172,24m²",
+      features: ["3 suítes", "1 vaga de garagem dupla + hobby box (inclusos)", "Sacada ampliada"],
+      img: "/images/informativo.png"
     },
     {
-      title: "Planta 1",
-      area: "86,46m²",
-      features: ["1 vaga dupla", "Sacada gourmet", "Opção de depósito"],
-      img: "/images/ap-8646.png"
+      title: "Apto 401 — Terraço c/ Piscina",
+      area: "286,95m²",
+      features: ["3 suítes", "Terraço com piscina privativa", "Localizado no 4º andar"],
+      img: "/images/informativo.png"
     },
     {
-      title: "Planta 3",
-      area: "104,68m²",
-      features: ["1 vaga dupla", "Sacada gourmet", "Opção de depósito"],
-      img: "/images/PLANTA BAIXA 5 AO 16 PVTO.jpg"
+      title: "Apto 403 — Terraço c/ Piscina",
+      area: "380,45m²",
+      features: ["3 suítes", "Terraço com piscina privativa", "Localizado no 4º andar"],
+      img: "/images/informativo.png"
     }
   ];
 
@@ -64,9 +64,9 @@ export function FloorPlans() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-gray-500 font-sans text-lg"
+            className="text-gray-500 font-sans text-lg font-medium"
           >
-            Opções de 84 a 104 m², pensadas para conforto, privacidade e alto padrão.
+            3 suítes em todas as opções, de 157 a 172 m², além de unidades diferenciadas com terraço e piscina privativa.
           </motion.p>
         </div>
 
@@ -81,8 +81,8 @@ export function FloorPlans() {
               className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 group flex flex-col"
             >
               <div className="mb-8">
-                <p className="text-gray-400 text-sm font-medium tracking-widest uppercase mb-2">{plan.title}</p>
-                <h3 className="text-5xl font-medium text-[#1A1A1A]">{plan.area}</h3>
+                <p className="text-gray-400 text-xs font-semibold tracking-widest uppercase mb-2 h-10 flex items-center">{plan.title}</p>
+                <h3 className="text-4xl font-medium text-[#1A1A1A]">{plan.area}</h3>
               </div>
 
               <div 
@@ -99,14 +99,14 @@ export function FloorPlans() {
                 <div className="absolute inset-x-0 bottom-0 h-16 flex items-end justify-center pb-4 translate-y-0 md:translate-y-full md:group-hover:translate-y-0 transition-transform duration-300">
                   <div className="flex items-center text-gray-900 space-x-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-                    <span className="text-sm font-medium">Clique para ampliar a imagem</span>
+                    <span className="text-sm font-medium">Ampliar planta</span>
                   </div>
                 </div>
               </div>
 
               <ul className="space-y-3 mb-8 flex-grow">
                 {plan.features.map((feature, i) => (
-                  <li key={i} className="flex items-center text-gray-600 font-sans text-sm">
+                  <li key={i} className="flex items-center text-gray-600 font-sans text-sm font-medium">
                     <span className="w-1.5 h-1.5 rounded-full bg-[#C4A57A] mr-3" />
                     {feature}
                   </li>

@@ -24,7 +24,7 @@ export function Navbar() {
         <div className="flex-shrink-0">
           <h1 className={`font-semibold tracking-widest uppercase transition-colors duration-300 ${scrolled ? "text-[#1A1A1A] text-xl" : "text-white text-2xl"
             }`}>
-            Cipriani <span className="font-light">Tower</span>
+            Costa <span className="font-light">Dourada</span>
           </h1>
         </div>
 
@@ -34,7 +34,7 @@ export function Navbar() {
             size="sm"
             className={!scrolled ? "text-white border-white hover:bg-white hover:text-black" : ""}
           >
-            Agendar Visita
+            Agendar visita
           </Button>
         </div>
       </div>
