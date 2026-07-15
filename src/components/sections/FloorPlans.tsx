@@ -24,25 +24,25 @@ export function FloorPlans() {
       title: "Planta 1 — Finais 1 e 2",
       area: "157,39m²",
       features: ["3 suítes", "1 vaga de garagem dupla + hobby box (inclusos)", "Sacada"],
-      img: "/images/informativo.png"
+      img: "/images/informativoz.png"
     },
     {
       title: "Planta 2 — Finais 3 e 4",
       area: "172,24m²",
       features: ["3 suítes", "1 vaga de garagem dupla + hobby box (inclusos)", "Sacada ampliada"],
-      img: "/images/informativo.png"
+      img: "/images/informativoz.png"
     },
     {
       title: "Apto 401 — Terraço c/ Piscina",
       area: "286,95m²",
       features: ["3 suítes", "Terraço com piscina privativa", "Localizado no 4º andar"],
-      img: "/images/informativo.png"
+      img: "/images/informativoz.png"
     },
     {
       title: "Apto 403 — Terraço c/ Piscina",
       area: "380,45m²",
       features: ["3 suítes", "Terraço com piscina privativa", "Localizado no 4º andar"],
-      img: "/images/informativo.png"
+      img: "/images/informativoz.png"
     }
   ];
 

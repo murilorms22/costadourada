@@ -14,15 +14,15 @@ import "swiper/css/effect-fade";
 
 export function Gallery() {
   const images = [
-    { src: "/images/vista-externa.jpg", alt: "Fachada Frente Mar" },
-    { src: "/images/hall.jpg", alt: "Fachada Vista Noturna" },
-    { src: "/images/vista-externa-diurna.jpg", alt: "Hall de Entrada" },
-    { src: "/images/piscina.jpg", alt: "Living Integrado" },
-    { src: "/images/vista-externa-noturna.jpg", alt: "Suíte Principal" },
-    { src: "/images/salao-de-jogos.jpg", alt: "Salão de Festas" },
-    { src: "/images/salao-de-festas.jpg", alt: "Piscina Frente Mar" },
-    { src: "/images/salao-de-festas-01.jpg", alt: "Academia" },
-    { src: "/images/salao-de-festas-02.jpg", alt: "Vista Externa Diurna" }
+    { src: "/images/vista-externaz.jpg", alt: "Fachada Frente Mar" },
+    { src: "/images/hallz.jpg", alt: "Fachada Vista Noturna" },
+    { src: "/images/vista-externa-diurnaz.jpg", alt: "Hall de Entrada" },
+    { src: "/images/piscinaz.jpg", alt: "Living Integrado" },
+    { src: "/images/vista-externa-noturnaz.jpg", alt: "Suíte Principal" },
+    { src: "/images/salao-de-jogosz.jpg", alt: "Salão de Festas" },
+    { src: "/images/salao-de-festasz.jpg", alt: "Piscina Frente Mar" },
+    { src: "/images/salao-de-festas-01z.jpg", alt: "Academia" },
+    { src: "/images/salao-de-festas-02z.jpg", alt: "Vista Externa Diurna" }
   ];
 
   return (

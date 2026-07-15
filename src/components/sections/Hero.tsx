@@ -15,7 +15,7 @@ export function Hero() {
       {/* Full Background Image */}
       <motion.div className="absolute inset-0 z-0 scale-105" style={{ y }}>
         <Image
-          src="/images/vista-externa.jpg"
+          src="/images/vista-externaz.jpg"
           alt="Costa Dourada Residencial Fachada"
           fill
           quality={100}

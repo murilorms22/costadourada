@@ -86,7 +86,7 @@ export function Location() {
           >
             <div className="relative aspect-[4/5] w-full max-w-md mx-auto lg:max-w-none radius-mix-2 overflow-hidden shadow-xl">
               <Image
-                src="/images/vista-externa-diurna.jpg"
+                src="/images/vista-externa-diurnaz.jpg"
                 alt="Localização Costa Dourada"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
