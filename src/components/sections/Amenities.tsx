@@ -64,7 +64,7 @@ export function Amenities() {
           {/* Bento Item 2: Lazer Integrado (width 1, height 1) */}
           <motion.div variants={itemVariants} className="relative group overflow-hidden rounded-3xl">
             <Image
-              src="/images/piscina-01z.jpg"
+              src="/images/piscinaz.jpg"
               alt="Área de Lazer"
               fill
               sizes="(max-width: 768px) 100vw, 33vw"
