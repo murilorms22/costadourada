@@ -24,25 +24,25 @@ export function FloorPlans() {
       title: "Planta 1 — Finais 1 e 2",
       area: "157,39m²",
       features: ["3 suítes", "1 vaga de garagem dupla + hobby box (inclusos)", "Sacada"],
-      img: "/images/informativoz.png"
+      img: "/images/ap-15739.png"
     },
     {
       title: "Planta 2 — Finais 3 e 4",
       area: "172,24m²",
       features: ["3 suítes", "1 vaga de garagem dupla + hobby box (inclusos)", "Sacada ampliada"],
-      img: "/images/informativoz.png"
+      img: "/images/ap-17224.png"
     },
     {
       title: "Apto 401 — Terraço c/ Piscina",
       area: "286,95m²",
       features: ["3 suítes", "Terraço com piscina privativa", "Localizado no 4º andar"],
-      img: "/images/informativoz.png"
+      img: "/images/ap28695.png"
     },
     {
       title: "Apto 403 — Terraço c/ Piscina",
       area: "380,45m²",
       features: ["3 suítes", "Terraço com piscina privativa", "Localizado no 4º andar"],
-      img: "/images/informativoz.png"
+      img: "/images/ap38045.png"
     }
   ];
 
@@ -97,7 +97,7 @@ export function FloorPlans() {
                   className="object-contain mix-blend-multiply group-hover:scale-[1.02] transition-transform duration-700"
                 />
                 <div className="absolute inset-x-0 bottom-0 h-16 flex items-end justify-center pb-4 translate-y-0 md:translate-y-full md:group-hover:translate-y-0 transition-transform duration-300">
-                  <div className="flex items-center text-gray-900 space-x-2">
+                  <div className="flex items-center text-gray-900 space-x-2 bg-white px-4 py-2 rounded-full shadow-md hover:bg-gray-50 transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
                     <span className="text-sm font-medium">Ampliar planta</span>
                   </div>
