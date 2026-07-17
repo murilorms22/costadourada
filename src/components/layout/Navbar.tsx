@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 
+import Image from "next/image";
+
 export function Navbar() {
   const { scrollY } = useScroll();
   const [scrolled, setScrolled] = useState(false);
@@ -22,10 +24,13 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         <div className="flex-shrink-0">
-          <h1 className={`font-semibold tracking-widest uppercase transition-colors duration-300 ${scrolled ? "text-[#1A1A1A] text-xl" : "text-white text-2xl"
-            }`}>
-            Costa <span className="font-light">Dourada</span>
-          </h1>
+          <Image
+            src="/images/costa-dourada-logo.png"
+            alt="Costa Dourada"
+            width={180}
+            height={50}
+            className="h-8 md:h-14 w-auto object-contain"
+          />
         </div>
 
         <div>

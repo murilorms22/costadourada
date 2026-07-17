@@ -14,7 +14,7 @@ import "swiper/css/effect-fade";
 
 export function Gallery() {
   const images = [
-    { src: "/images/vista-externaz.jpg", alt: "Fachada Frente Mar" },
+    { src: "/images/vista-externa-mar-01z.jpg", alt: "Fachada Frente Mar" },
     { src: "/images/vista-externa-noturnaz.jpg", alt: "Fachada Vista Noturna" },
     { src: "/images/hallz.jpg", alt: "Hall de Entrada" },
     { src: "/images/piscinaz.jpg", alt: "Living Integrado" },
@@ -94,7 +94,7 @@ export function Gallery() {
 
         <style jsx global>{`
           .gallery-swiper .swiper-pagination-bullet {
-            background: #C4A57A;
+            background: #B68D40;
             opacity: 0.5;
           }
           .gallery-swiper .swiper-pagination-bullet-active {

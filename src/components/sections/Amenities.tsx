@@ -80,11 +80,11 @@ export function Amenities() {
           <motion.div variants={itemVariants} className="bg-[#F9F9F9] p-8 md:p-10 rounded-3xl border border-gray-100 flex flex-col justify-center row-span-2">
             <h3 className="text-xl font-medium text-gray-900 mb-6">Diferenciais do empreendimento</h3>
             <ul className="space-y-3 font-sans text-gray-600 text-sm font-medium">
-              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#C4A57A] mr-3 shrink-0" />Frente para o mar, na praia central</li>
-              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#C4A57A] mr-3 shrink-0" />3 suítes em todas as unidades</li>
-              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#C4A57A] mr-3 shrink-0" />Vaga de garagem dupla + hobby box inclusos</li>
-              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#C4A57A] mr-3 shrink-0" />Unidades exclusivas com terraço e piscina privativa</li>
-              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#C4A57A] mr-3 shrink-0" />Comércio no térreo, com praticidade</li>
+              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#B68D40] mr-3 shrink-0" />Frente para o mar, na praia central</li>
+              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#B68D40] mr-3 shrink-0" />3 suítes em todas as unidades</li>
+              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#B68D40] mr-3 shrink-0" />Vaga de garagem dupla + hobby box inclusos</li>
+              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#B68D40] mr-3 shrink-0" />Unidades exclusivas com terraço e piscina privativa</li>
+              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#B68D40] mr-3 shrink-0" />Comércio no térreo, com praticidade</li>
             </ul>
           </motion.div>
 
@@ -107,11 +107,11 @@ export function Amenities() {
           <motion.div variants={itemVariants} className="bg-[#1A1A1A] p-8 md:p-10 flex flex-col justify-center radius-mix-2 text-white">
             <h3 className="text-xl font-medium mb-4">Área de Lazer (4º andar)</h3>
             <ul className="space-y-3 font-sans text-gray-400 text-sm font-medium">
-              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#C4A57A] mr-3 shrink-0" />Piscina adulta e infantil</li>
-              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#C4A57A] mr-3 shrink-0" />Salão de festas</li>
-              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#C4A57A] mr-3 shrink-0" />Sala de jogos</li>
-              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#C4A57A] mr-3 shrink-0" />Academia</li>
-              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#C4A57A] mr-3 shrink-0" />Playground</li>
+              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#B68D40] mr-3 shrink-0" />Piscina adulta e infantil</li>
+              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#B68D40] mr-3 shrink-0" />Salão de festas</li>
+              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#B68D40] mr-3 shrink-0" />Sala de jogos</li>
+              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#B68D40] mr-3 shrink-0" />Academia</li>
+              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#B68D40] mr-3 shrink-0" />Playground</li>
             </ul>
           </motion.div>
 
