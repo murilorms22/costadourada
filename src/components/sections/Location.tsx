@@ -7,9 +7,9 @@ import { Waves, Compass, Store, Car, MapPin } from "lucide-react";
 export function Location() {
   const points = [
     {
-      icon: <Waves className="w-5 h-5" />,
-      title: "Praia e mar",
-      desc: "Praia Central (em frente), Calçadão da Praia e o Molhe Joaquim Pires"
+      icon: <MapPin className="w-5 h-5" />,
+      title: "Localização",
+      desc: "Praia Central (com vista para o mar), Calçadão da Praia e o Molhe Joaquim Pires"
     },
     {
       icon: <Compass className="w-5 h-5" />,
@@ -47,7 +47,7 @@ export function Location() {
               <span>Localização</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-medium text-gray-900 mb-6 leading-tight">
-              De frente para a praia central, no Centro de Balneário Piçarras
+              Com vista para a praia central, no Centro de Balneário Piçarras
             </h2>
             <p className="text-gray-500 font-sans text-lg mb-6 max-w-lg font-medium leading-relaxed">
               O Costa Dourada fica na Av. Nereu Ramos, 468, no Centro de Balneário Piçarras — a principal avenida à beira-mar da cidade, cercada de comércio, gastronomia e serviços, a poucos passos da areia.

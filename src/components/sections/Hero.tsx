@@ -43,7 +43,7 @@ export function Hero() {
 
           {/* Title */}
           <h1 className="text-4xl md:text-5xl lg:text-[4.5rem] font-bold text-white leading-[1.1] tracking-tight">
-            Viva de frente para o mar, no coração de <span className="bg-gradient-to-r from-[#D4B069] to-[#B68D40] bg-clip-text text-transparent">Balneário Piçarras</span>
+            Viva com vista para o mar, no coração de <span className="bg-gradient-to-r from-[#D4B069] to-[#B68D40] bg-clip-text text-transparent">Balneário Piçarras</span>
           </h1>
 
           {/* Features Grid */}
@@ -51,7 +51,7 @@ export function Hero() {
             {[
               { text: "3 suítes | de 157 a 172 m²", icon: Key },
               { text: "Vaga de garagem dupla + hobby box inclusos", icon: Car, hideOnMobile: true },
-              { text: "De frente para o mar, na praia central de Piçarras", icon: MapPin },
+              { text: "Vista para o mar, na praia central de Piçarras", icon: MapPin },
               { text: "Lazer completo e comércio no térreo", icon: Sparkles }
             ].map((item, idx) => (
               <motion.div

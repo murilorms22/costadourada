@@ -14,13 +14,13 @@ import "swiper/css/effect-fade";
 
 export function Gallery() {
   const images = [
-    { src: "/images/vista-externa-mar-01z.jpg", alt: "Fachada Frente Mar" },
+    { src: "/images/vista-externa-mar-01z.jpg", alt: "Fachada com Vista para o Mar" },
     { src: "/images/vista-externa-noturnaz.jpg", alt: "Fachada Vista Noturna" },
     { src: "/images/hallz.jpg", alt: "Hall de Entrada" },
     { src: "/images/piscinaz.jpg", alt: "Living Integrado" },
     { src: "/images/quartoz.jpg", alt: "Suíte Principal" },
     { src: "/images/salao-de-festasz.jpg", alt: "Salão de Festas" },
-    { src: "/images/piscina-02z.jpg", alt: "Piscina Frente Mar" },
+    { src: "/images/piscina-02z.jpg", alt: "Piscina com Vista para o Mar" },
     { src: "/images/academiaz.jpg", alt: "Academia" },
     { src: "/images/vista-externa-diurnaz.jpg", alt: "Vista Externa Diurna" }
   ];

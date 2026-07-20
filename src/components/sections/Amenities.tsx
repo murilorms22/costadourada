@@ -28,7 +28,7 @@ export function Amenities() {
               Lazer completo e o mar como parte do seu dia a dia
             </h2>
             <p className="text-gray-500 font-sans text-lg font-medium">
-              Mais do que um apartamento, um convite para viver em harmonia com a natureza, na costa catarinense. O Costa Dourada reúne lazer completo no 4º andar e a praia logo à frente.
+              Mais do que um apartamento, um convite para viver em harmonia com a natureza, na costa catarinense. O Costa Dourada reúne lazer completo no 4º andar e vista para a praia.
             </p>
           </div>
           <div>
@@ -49,14 +49,14 @@ export function Amenities() {
           <motion.div variants={itemVariants} className="md:col-span-2 lg:col-span-2 relative group overflow-hidden radius-mix-1">
             <Image
               src="/images/piscina-02z.jpg"
-              alt="Piscina Frente Mar"
+              alt="Piscina com Vista para o Mar"
               fill
               sizes="(max-width: 768px) 100vw, (max-width: 1024px) 66vw, 50vw"
               className="object-cover transition-transform duration-[10s] group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
             <div className="absolute bottom-8 left-8 right-8">
-              <h3 className="text-2xl font-medium text-white mb-2">Piscina Frente Mar</h3>
+              <h3 className="text-2xl font-medium text-white mb-2">Piscina com Vista para o Mar</h3>
               <p className="text-gray-200 font-sans text-sm font-medium">Adulto e Infantil com Vista Infinita</p>
             </div>
           </motion.div>
@@ -80,7 +80,7 @@ export function Amenities() {
           <motion.div variants={itemVariants} className="bg-[#F9F9F9] p-8 md:p-10 rounded-3xl border border-gray-100 flex flex-col justify-center row-span-2">
             <h3 className="text-xl font-medium text-gray-900 mb-6">Diferenciais do empreendimento</h3>
             <ul className="space-y-3 font-sans text-gray-600 text-sm font-medium">
-              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#B68D40] mr-3 shrink-0" />Frente para o mar, na praia central</li>
+              <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#B68D40] mr-3 shrink-0" />Vista para o mar, na praia central</li>
               <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#B68D40] mr-3 shrink-0" />3 suítes em todas as unidades</li>
               <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#B68D40] mr-3 shrink-0" />Vaga de garagem dupla + hobby box inclusos</li>
               <li className="flex items-center"><span className="w-1.5 h-1.5 rounded-full bg-[#B68D40] mr-3 shrink-0" />Unidades exclusivas com terraço e piscina privativa</li>

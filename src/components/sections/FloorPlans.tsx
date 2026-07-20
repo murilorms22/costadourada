@@ -23,7 +23,7 @@ export function FloorPlans() {
     {
       title: "Planta 1 — Finais 1 e 2",
       area: "157,39m²",
-      features: ["3 suítes", "1 vaga de garagem dupla + hobby box (inclusos)", "Sacada"],
+      features: ["3 suítes", "1 vaga de garagem dupla + hobby box (inclusos)", "Sacada integrada"],
       img: "/images/ap-15739.png"
     },
     {

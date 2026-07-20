@@ -8,7 +8,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Costa Dourada Residencial | Frente Mar em Balneário Piçarras/SC",
+  title: "Costa Dourada Residencial | Vista para o Mar em Balneário Piçarras/SC",
   description: "Costa Dourada Residencial — apartamentos de 157 a 172 m² com 3 suítes e vaga dupla de garagem no Centro de Balneário Piçarras. Unidades exclusivas com terraço e piscina privativa.",
   icons: {
     icon: "/images/logo-oma.png",
