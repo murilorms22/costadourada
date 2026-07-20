@@ -23,13 +23,14 @@ export function Navbar() {
         }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-        <div className="flex-shrink-0">
+        <div className="flex-shrink-0 h-8 md:h-14">
           <Image
             src="/images/costa-dourada-logo.png"
             alt="Costa Dourada"
             width={180}
             height={50}
-            className="h-8 md:h-14 w-auto object-contain"
+            className="object-contain"
+            style={{ width: "auto", height: "100%" }}
           />
         </div>
 

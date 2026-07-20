@@ -23,7 +23,10 @@ export function Map() {
 
       </div>
 
-      <div className="w-full h-[300px] md:h-[350px] mt-12">
+      <div className="w-full h-[300px] md:h-[350px] mt-12 relative flex items-center justify-center">
+        <p className="absolute text-white z-0 px-6 text-center text-sm md:text-base">
+          Caso o mapa não esteja aparecendo aqui, recarregue a página para visualizá-lo.
+        </p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.1859417576666!2d-48.666367799999996!3d-26.770342199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8d30061e83cb9%3A0xf72f3395afe1ee56!2sCosta%20Dourada%20Residence!5e0!3m2!1spt-BR!2sbr!4v1784152020475!5m2!1spt-BR!2sbr"
           width="100%"
@@ -32,6 +35,7 @@ export function Map() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
+          className="relative z-10"
         />
       </div>
     </section>

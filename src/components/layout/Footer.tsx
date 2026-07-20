@@ -7,13 +7,16 @@ export function Footer() {
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row justify-between items-center gap-12 border-b border-white/10 pb-16">
           <div className="text-center md:text-left space-y-4 max-w-sm">
-            <Image
-              src="/images/costa-dourada-logo.png"
-              alt="Costa Dourada"
-              width={300}
-              height={80}
-              className="h-10 md:h-20 w-auto object-contain mx-auto md:mx-0"
-            />
+            <div className="h-10 md:h-20 mx-auto md:mx-0">
+              <Image
+                src="/images/costa-dourada-logo.png"
+                alt="Costa Dourada"
+                width={300}
+                height={80}
+                className="object-contain"
+                style={{ width: "auto", height: "100%" }}
+              />
+            </div>
             <p className="text-gray-400 font-sans">
               Av. Nereu Ramos, 468<br />
               Centro — Balneário Piçarras/SC

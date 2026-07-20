@@ -50,7 +50,7 @@ export function Hero() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 w-full">
             {[
               { text: "3 suítes | de 157 a 172 m²", icon: Key },
-              { text: "Vaga de garagem dupla + hobby box inclusos", icon: Car },
+              { text: "Vaga de garagem dupla + hobby box inclusos", icon: Car, hideOnMobile: true },
               { text: "De frente para o mar, na praia central de Piçarras", icon: MapPin },
               { text: "Lazer completo e comércio no térreo", icon: Sparkles }
             ].map((item, idx) => (
@@ -59,7 +59,7 @@ export function Hero() {
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 + (idx * 0.1) }}
-                className="flex items-center space-x-4 bg-black/40 backdrop-blur-md p-4 rounded-xl border border-white/10"
+                className={`items-center space-x-4 bg-black/40 backdrop-blur-md p-4 rounded-xl border border-white/10 ${item.hideOnMobile ? 'hidden sm:flex' : 'flex'}`}
               >
                 <div className="flex-shrink-0 text-white">
                   <item.icon className="w-5 h-5 md:w-6 md:h-6" strokeWidth={2} />
