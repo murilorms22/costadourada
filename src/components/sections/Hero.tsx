@@ -10,7 +10,7 @@ export function Hero() {
   const y = useTransform(scrollY, [0, 1000], [0, 300]);
 
   return (
-    <section className="relative h-screen min-h-[650px] w-full flex items-center overflow-hidden bg-[#1A1A1A]">
+    <section className="relative min-h-[100dvh] w-full flex items-center overflow-hidden bg-[#1A1A1A] pb-12 md:pb-0">
 
       {/* Full Background Image */}
       <motion.div className="absolute inset-0 z-0 scale-[1.3] origin-left" style={{ y }}>
@@ -59,7 +59,7 @@ export function Hero() {
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 + (idx * 0.1) }}
-                className={`items-center space-x-4 bg-black/40 backdrop-blur-md p-4 rounded-xl border ${item.isPrice ? 'border-[#B68D40]' : 'border-white/10'} ${item.hideOnMobile ? 'hidden sm:flex' : 'flex'}`}
+                className={`flex items-center space-x-4 bg-black/40 backdrop-blur-md p-4 rounded-xl border ${item.isPrice ? 'border-[#B68D40]' : 'border-white/10'}`}
               >
                 <div className="flex-shrink-0 text-white">
                   <item.icon className="w-5 h-5 md:w-6 md:h-6" strokeWidth={2} />
