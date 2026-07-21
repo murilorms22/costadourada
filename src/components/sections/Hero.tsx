@@ -3,7 +3,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 import Image from "next/image";
-import { Car, Sparkles, MapPin, Key } from "lucide-react";
+import { Car, Sparkles, MapPin, Key, DollarSign } from "lucide-react";
 
 export function Hero() {
   const { scrollY } = useScroll();
@@ -38,7 +38,7 @@ export function Hero() {
         >
           {/* Eyebrow */}
           <span className="bg-gradient-to-r from-[#D4B069] to-[#B68D40] bg-clip-text text-transparent uppercase tracking-[0.2em] text-xs md:text-sm font-extrabold">
-            Últimas unidades — direto com a construtora
+            Últimas unidades
           </span>
 
           {/* Title */}
@@ -50,16 +50,16 @@ export function Hero() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 w-full">
             {[
               { text: "3 suítes | de 157 a 172 m²", icon: Key },
-              { text: "Vaga de garagem dupla + hobby box inclusos", icon: Car, hideOnMobile: true },
               { text: "Vista para o mar, na praia central de Piçarras", icon: MapPin },
-              { text: "Lazer completo e comércio no térreo", icon: Sparkles }
+              { text: "Lazer completo e comércio no térreo", icon: Sparkles },
+              { text: "Unidades a partir de R$1.600.000,00", icon: DollarSign, isPrice: true }
             ].map((item, idx) => (
               <motion.div
                 key={idx}
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 + (idx * 0.1) }}
-                className={`items-center space-x-4 bg-black/40 backdrop-blur-md p-4 rounded-xl border border-white/10 ${item.hideOnMobile ? 'hidden sm:flex' : 'flex'}`}
+                className={`items-center space-x-4 bg-black/40 backdrop-blur-md p-4 rounded-xl border ${item.isPrice ? 'border-[#B68D40]' : 'border-white/10'} ${item.hideOnMobile ? 'hidden sm:flex' : 'flex'}`}
               >
                 <div className="flex-shrink-0 text-white">
                   <item.icon className="w-5 h-5 md:w-6 md:h-6" strokeWidth={2} />
